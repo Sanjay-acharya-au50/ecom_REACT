@@ -3,8 +3,7 @@ import { AiFillGithub,AiFillFacebook,AiOutlineInstagram,AiFillLinkedin } from 'r
 
 import photo from '../footerPhoto/photo.png'
 // import ph from'../footerPhoto/p.webp'
-import c from '../footerPhoto/c.jpg'
-import { Link } from 'react-router-dom';
+import c from '../footerPhoto/c.png'
 const FooterPhoto = () => {
   return (
     <div className='w-full h-[300px] md:h-[550px]  flex flex-col justify-between items-center  border-t-3xl bg-[white] '>
