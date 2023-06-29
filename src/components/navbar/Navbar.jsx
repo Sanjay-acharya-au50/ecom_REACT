@@ -37,11 +37,11 @@ console.log("count",count)
             
             <Link to='/register'>
 
-            <button className='text-[18px] bg-[white] text-blue-700 md:text-[19px] rounded p-1 m-2'>Register</button>
+            <button className='text-[18px] bg-[white] text-blue-700 md:text-[19px] rounded p-1 m-2 hover:opacity-90 hover:scale-105 duration-500'>Register</button>
             </Link>
             <Link to='/login'>
 
-            <button className='text-[18px] bg-[white] text-blue-700 md:text-[19px] rounded p-1 m-2'>Login</button>
+            <button className='text-[18px] bg-[white] text-blue-700 md:text-[19px] rounded p-1 m-2 hover:opacity-90 hover:scale-105 duration-500'>Login</button>
             </Link>
             <Link to='/cart'>
 

@@ -11,7 +11,7 @@ const Login = () => {
 
   const notify = () =>
   toast(
-      "there! My name is Sanjay, and I'm sorry to inform you that this page is still a work in progress and has not been completed yet. We are actively working on it to bring you valuable content and a seamless user experience.!"
+      "there! My name is Sanjay, and I'm sorry to inform you that this page is still a work in progress and has not been completed yet. i'm working on it to bring you valuable content and a seamless user experience.!"
     );
 
   return (

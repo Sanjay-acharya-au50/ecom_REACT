@@ -20,12 +20,12 @@ const Product = () => {
   
 
   return (
-    <div className="p-2 md:p-20  flex justify-center flex-col  w-full bg-orange-400">
-      <div className="h-[100px]  mt-3 flex justify-around items-center  ">
-        <button onClick={(e)=>{setItem(popularProducts)}}  className="h-[80px] w-[200px]  m-2 rounded-3xl  flex justify-center items-center shadow-2xl">All</button>
-        <button onClick={(e)=>{productFilter("Men")}}  className="h-[80px] w-[200px]  m-2 rounded-3xl flex justify-center items-center shadow-2xl">Men</button>
-        <button onClick={(e)=>{productFilter("Women")}}  className="h-[80px] w-[200px]  m-2 rounded-3xl flex justify-center items-center shadow-2xl">Women</button>
-        <button onClick={(e)=>{productFilter("Kid")}}  className="h-[80px] w-[200px]  m-2 rounded-3xl flex justify-center items-center shadow-2xl">Kid</button>
+    <div className="p-2 md:p-20  flex justify-center flex-col  w-full bg-orange-200">
+      <div className="h-[100px]  mt-3 flex justify-around items-center ">
+        <button onClick={(e)=>{setItem(popularProducts)}}  className="h-[80px] w-[200px]  m-2 rounded-3xl  flex justify-center items-center shadow-2xl hover:bg-orange-300 hover:scale-105 duration-500">All</button>
+        <button onClick={(e)=>{productFilter("Men")}}  className="h-[80px] w-[200px]  m-2 rounded-3xl flex justify-center items-center shadow-2xl hover:bg-orange-300 hover:scale-105 duration-500">Men</button>
+        <button onClick={(e)=>{productFilter("Women")}}  className="h-[80px] w-[200px]  m-2 rounded-3xl flex justify-center items-center shadow-2xl hover:bg-orange-300 hover:scale-105 duration-500">Women</button>
+        <button onClick={(e)=>{productFilter("Kid")}}  className="h-[80px] w-[200px]  m-2 rounded-3xl flex justify-center items-center shadow-2xl hover:bg-orange-300 hover:scale-105 duration-500">Kid</button>
       </div>
 
       <div className="p-2  m-2 sm:flex justify-center items-center flex-col md:grid grid-cols-3">
@@ -33,7 +33,7 @@ const Product = () => {
           return (
 
               <div 
-                className="bg-[white] rounded-lg  m-2 shadow-2xl flex justify-center items-center"
+                className="bg-[white] rounded-lg  m-2 shadow-2xl flex justify-center items-center hover:opacity-90 hover:scale-105 duration-500 "
                key={id}>
                   <Image data={item} className=''/>
               </div>

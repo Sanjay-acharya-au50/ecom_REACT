@@ -62,9 +62,9 @@ const {addToCart} = useContext(CartContext)
                 <div className="flex p-3  md:justify-start sm:justify-center items-center">
 
 
-                <div className="flex justify-center items-center bg-white shadow-2xl m-2 rounded-lg text-[18px] md:text-[20px]">
+                <div className="flex justify-center items-center bg-white shadow-2xl m-2 rounded-lg text-[18px] md:text-[20px] hover:opacity-90 hover:scale-105 duration-500">
                 
-                <button  className="p-[11px]" onClick={()=>addToCart(single.id)}>Add to Cart</button>
+                <button  className="p-[11px] " onClick={()=>addToCart(single.id)}>Add to Cart</button>
 
                 </div>
 
